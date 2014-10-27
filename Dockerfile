@@ -1,4 +1,4 @@
-FROM debian:stable
+FROM debian:latest
 MAINTAINER itech
 
 RUN apt-get -y update \
