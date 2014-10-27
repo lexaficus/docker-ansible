@@ -1,9 +1,9 @@
 FROM debian:stable
 MAINTAINER itech
 
-RUN apt-get update \
-    && apt-get upgrade \
-    && apt-get --no-install-recommends install python-yaml \
+RUN apt-get -y update \
+    && apt-get -y upgrade \
+    && apt-get -y --no-install-recommends install python-yaml \
                python-jinja2 python-httplib2 python-keyczar \
                python-paramiko python-setuptools \
                python-pkg-resources git python-pip \
