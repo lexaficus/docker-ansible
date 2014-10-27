@@ -5,7 +5,7 @@ Clean debian image built from the official debian image. Installs latest stable 
 
 - To install `docker run --rm --name=docker-ansible itech/docker-ansible`
 
-- To test `docker exec -it docker-ansible bash`
+- To quickly test it `docker run --name=docker-ansible -it itech/docker-ansible bash`
 
 Then you can play with ansible from command line:
 
