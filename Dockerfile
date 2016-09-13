@@ -3,7 +3,7 @@ MAINTAINER itech
 
 RUN apt-get -y update \
     && apt-get -y upgrade \
-    && apt-get -y --no-install-recommends install python-yaml openssh-client \
+    && apt-get -y --no-install-recommends install python-yaml openssh-client rsync \
                python-jinja2 python-httplib2 python-keyczar \
                python-paramiko python-setuptools \
                python-pkg-resources git python-pip \
